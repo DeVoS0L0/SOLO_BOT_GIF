@@ -107,6 +107,26 @@ client.elevation = message => {
 client.login(config.token)
 
 
+////Code Streming////
+client.on("ready", () => {
+  console.log(
+    `Online In Servers : ${client.guilds.size} | Users : ${client.users.size}`
+  ); 
+  let statuses = [
+    `Servers: ${client.guilds.size} Users: ${client.users.size}`,
+    `By solo`,
+    `solo Is Here`
+  ];
+  setInterval(function() {
+    let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
+    client.user.setActivity(STREAMING, {
+      type: "PLAYING",
+      url: "https://www.twitch.tv/faith"
+    });
+  }, 3000);
+});
+
+
 //------------------------ Halka Açık Random Gif Pp -----------------------//
 //------------------------ Halka Açık Random Gif Pp -----------------------//
 //------------------------ Halka Açık Random Gif Pp -----------------------//

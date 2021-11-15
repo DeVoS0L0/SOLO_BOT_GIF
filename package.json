@@ -1,10 +1,10 @@
 {
-  "name": "TONY",
+  "name": "SOLO",
   "version": "0.0.1",
-  "description": "bot gif v12 by tony",
+  "description": "bot gif by solo",
   "main": "tony.js",
   "scripts": {
-    "start": "node tony.js"
+    "start": "node solo.js"
   },
   "dependencies": {
     "express": "^4.17.1",

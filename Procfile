@@ -1,1 +1,1 @@
-worker: node tony.js
+worker: node solo.js

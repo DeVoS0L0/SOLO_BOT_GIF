@@ -2,7 +2,7 @@
   "name": "SOLO",
   "version": "0.0.1",
   "description": "bot gif by solo",
-  "main": "tony.js",
+  "main": "solo.js",
   "scripts": {
     "start": "node solo.js"
   },
